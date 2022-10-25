@@ -5,22 +5,8 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" type ="text/css" href="./assets/style.css" />
     </head>
- <!-- create a title -->
-    <body>
+        <body>
         <header>
-            <div class="large-font">Coding Quiz</div>
-            <button class="start-button">Begin Quiz</button>
-        </header>
-        <main>
-            <section>
-                <!-- create heading -->
-                <div class="coding-challenge">
-                    <div class="instruction">
-                        <h1>Coding Quiz Challenge</h2>
-                            <p>Try to answer all the code-related questions as fast as possible and try to aim for the best score!</p>
-                    </div>
-                </div>
-            </section>
             <!-- create clickable score -->
             <section>
                 <div class="score"><a href="#">View Highscores</a></div>
@@ -34,6 +20,33 @@
                 </div>
             </section>
 
+        </header>
+        <main>
+            <section>
+                <!-- create heading -->
+                <div class="coding-challenge">
+                    <div class="instruction">
+                        <h1>Coding Quiz Challenge</h2>
+                            <p>Try to answer all the code-related questions as fast as possible and try to aim for the best score!</p>
+                            <p>Getting the incorrect answer will deduct the time you have so do your best!</p>
+                                <button class="start-button">Begin Quiz</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- create question boxes -->
+                <div id="question" style="display: none;">
+                <p class="questionTitle"></p>
+                <div>
+                    <p><button id="b0"></button></p>
+                    <p><button id="b1"></button></p>
+                    <p><button id="b2"></button></p>
+                    <p><button id="b3"></button></p>
+                    <p><button id="b4"></button></p>
+                    <p id="checkAns"></p>
+                </div>
+                </div>
+            </section>
         </main>
         <script src="./assets/script.js"></script>
     </body>
