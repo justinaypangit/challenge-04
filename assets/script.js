@@ -47,9 +47,6 @@ var checkAnswer = document.getElementById("checkAns");
 // create right answer and wrong answer variables
 
 // create function to run questions
-var startQuiz = function() {
-    
-}
 // create function on correct answer
 // create function on wrong answer
 // create function on finished questions
